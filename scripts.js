@@ -13,3 +13,41 @@ function computerPlay() {
     }
 }
 console.log(computerChoice);
+
+//Getting player's choice
+const playChoice = prompt("Rock, paper, or scissors?"); 
+console.log(playChoice);
+
+ //function to play the game
+function playRound (playChoice, computerChoice) {
+    let log = "try it";
+    if (playChoice === "rock") {
+        if (computerChoice === "paper") {
+            log = "Sorry, you lose! Paper beats Rock";
+        } else if (computerChoice === "scissors") {
+            log = " Yayyyy! you win, Rock beat Scissors";
+        } else { 
+            log = " It's a tie";
+        }
+    } else if (playChoice === "paper") {
+        if (computerChoice === "rock") {
+            log = " Yayy! you win, Paper beat Rock";
+        } else if ( computerChoice === "scissors") {
+            log = 'Sorry, you lose! Scissors beats Paper';
+        } else {
+            log = " It's is a tie";
+        }
+    } else {
+        if (computerChoice === "rock") {
+            log = " Sorry, you lose! Rock beats scissors";
+        } else if ( computerChoice === "paper") {
+            log = " Yay, you win! Scissors beat paper";
+        } else {
+            log = " it's a tie";
+        }
+    }
+    return log;
+}
+const result = playRound(playChoice, computerChoice);
+console.log(result);
+
