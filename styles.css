@@ -94,3 +94,25 @@ left: -100px;
     margin-top: 40px;
     font-weight: bold;
 }
+.glow {
+    border: 8px solid #FFD151;
+    box-shadow: 0 0  40px #8ec3b8;
+    
+}
+.dark {
+    border: 2px solid #031017;
+    box-shadow: 0 0 20px #113244;
+
+}
+.neutral {
+    box-shadow: 0 0 40px#18e0b8;
+}
+.button { 
+    background-color: #4bb99a;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+
+}
