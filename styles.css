@@ -116,3 +116,12 @@ left: -100px;
     padding: 20px;
 
 }
+.reset {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #8ec3b8;
+    margin-top: 40px;
+    font-weight: bold;
+
+}
